@@ -2,9 +2,13 @@
 A command line application that applies filter to bitmap images(bmps). Made using C.  
 
 # how to use  
-Usage: filter [flag] infile outfile  
+Compile: `make`  
+Note: Use gdb to compile.  
+Usage: `filter [flag] infile outfile`  
 [flag] could be any of the following:  
  -b for blur  
  -g for grayscale  
  -r for reflect  
- -s for sepia
+ -s for sepia  
+infile is the input file  
+outfile is the output file
