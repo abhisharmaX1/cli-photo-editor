@@ -3,7 +3,7 @@ A command line application that applies filter to bitmap images(bmps). Made usin
 
 # how to use  
 Compile: `make`  
-Note: Use gdb to compile.  
+Note: Use clang to compile.  
 Usage: `filter [flag] infile outfile`  
 [flag] could be any of the following:  
  -b for blur  
